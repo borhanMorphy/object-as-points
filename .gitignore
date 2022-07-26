@@ -1,0 +1,26 @@
+# dev
+.vscode
+.idea
+
+# cache
+*.pyc
+__pycache__
+
+# weights
+*.pt
+*.pth
+*.ckpt
+checkpoints
+backup_checkpoints
+
+# package
+build/
+dist/
+progan.egg-info/
+
+# tests & reports
+.coverage
+.tox/
+
+# data
+data
