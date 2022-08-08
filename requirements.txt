@@ -1,0 +1,8 @@
+torchmetrics
+torch
+torchvision
+pydantic
+albumentations
+opencv-python
+pycocotools
+pytorch-lightning

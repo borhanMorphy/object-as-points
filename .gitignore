@@ -16,7 +16,7 @@ backup_checkpoints
 # package
 build/
 dist/
-progan.egg-info/
+centernet.egg-info/
 
 # tests & reports
 .coverage

@@ -4,14 +4,8 @@
 
 <!-- TODO add badges -->
 
-<!-- TODO add interpoation visuals in here -->
-
 ## Contents
 - [Installation](#installation)
-- [Pretrained Models](#pretrained-models)
-- [Demo](#demo)
-- [Benchmarks](#benchmarks)
-- [Tutorials](#tutorials)
 - [References](#references)
 - [Citations](#citations)
 

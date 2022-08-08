@@ -103,3 +103,24 @@ class DetectionHead2D(nn.Module):
         # batch_preds: N x 7
         batch_preds[:, 1:5] *= 4 # TODO change hardcoded stride
         return batch_preds
+
+class DetectionHead3D(nn.Module):
+    def __init__(self):
+        super().__init__()
+        # Three Modules;
+        # - Depth Module
+        #   * D̂ ∈ [0, 1] R × R
+        #   * 2 conv seperated by ReLU, last activation is inverse sigmoid
+        #   * L1 Loss
+        #   * Q-Tip: groud truth absolute depth (in meter)
+        # - 3D Module
+        #   * Γ̂ ∈ R R × R × 3
+        #   * 2 conv seperated by ReLU, last activation is linear
+        #   * L1 Loss
+        #   * Q-Tip: directly regress to their absolute values in meters
+        #   * Q-Tip: predicting directly object height, width, and length in meter
+        # - Orientation Module
+        #   * Â ∈ R R × R × 8
+
+    def forward(self):
+        pass
